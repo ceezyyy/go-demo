@@ -2,38 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b95fa6f8-789b-4ba1-b9fa-386470025569" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/booleans.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/count_characters.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/divby0.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/func_calls_func.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/func_of_strings.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/ifelse.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/local_scope.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/pointer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/str_ptr.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/string_conversion.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.xmind" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pics/go-program.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pics/image-20210528120654197.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pics/image-20210528121045494.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pics/image-20210528121947711.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pics/image-20210528180225610.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pics/image-20210529151649826.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/go-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/go-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/error_returnval.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/fizzbuzz.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/for1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/for_character.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/for_loop.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/ifelse_visible.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/mult_returnval.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/multi_return.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/range_string.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/rectangle_stars.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/season.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/switch1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/switch2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/switch3.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/array.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/constants.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/for-loop.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/if-else.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/slices.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/switch-case.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/values.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/variables.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/helloworld/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/string_conversion.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/string_conversion.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +32,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file:///usr/local/Cellar/go" />
+  <component name="GOROOT" url="file:///usr/local/Cellar/go/1.16.4/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -88,56 +73,60 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="MTHome" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
-  <component name="RunManager" selected="Go Build.go build ifelse.go">
-    <configuration name="go build booleans.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build error_returnval.go">
+    <configuration name="go build error_returnval.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/basic/booleans.go" />
+      <filePath value="$PROJECT_DIR$/basic/error_returnval.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build func_of_strings.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build goto1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/basic/func_of_strings.go" />
+      <filePath value="$PROJECT_DIR$/basic/goto1.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build ifelse.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build mult_returnval.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/basic/ifelse.go" />
+      <filePath value="$PROJECT_DIR$/basic/mult_returnval.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build pointer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build range_string.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/basic/pointer.go" />
+      <filePath value="$PROJECT_DIR$/basic/range_string.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build str_ptr.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build rectangle_stars.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/basic/str_ptr.go" />
+      <filePath value="$PROJECT_DIR$/basic/rectangle_stars.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build ifelse.go" />
-        <item itemvalue="Go Build.go build booleans.go" />
-        <item itemvalue="Go Build.go build str_ptr.go" />
-        <item itemvalue="Go Build.go build pointer.go" />
-        <item itemvalue="Go Build.go build func_of_strings.go" />
+        <item itemvalue="Go Build.go build error_returnval.go" />
+        <item itemvalue="Go Build.go build mult_returnval.go" />
+        <item itemvalue="Go Build.go build goto1.go" />
+        <item itemvalue="Go Build.go build range_string.go" />
+        <item itemvalue="Go Build.go build rectangle_stars.go" />
       </list>
     </recent_temporary>
   </component>
@@ -155,5 +144,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

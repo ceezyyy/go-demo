@@ -1,4 +1,4 @@
-# Go
+s# Go
 
 ## Table of Contents
 
@@ -23,7 +23,7 @@
 
 **The order of execution**
 
-<div align="center"> <img src="pics/go-program.png" width="60%"/> </div><br>
+<div align="center"> <img src="pics/go-program.png" width="70%"/> </div><br>
 
 1. 入口：*package main*，按顺序 *import* 所有包
 2. 递归地 *import*（每个包只会 *import* 一次）
@@ -72,30 +72,86 @@ var a, b, c int
 
 ### 2.3 Control Structures
 
-**if-else **
+#### 2.3.1 If else
+
+**if-else**
 
 ```go
 if condition1 {
-  // do something
+  ...
 } else if condition2 {
-  // do something else 
+  ...
 } else {
-  // catch-all or default
+  ...
 }
 ```
 
-**comma, ok**
+**if-else w/ intialization**
 
 ```go
+// value 只在 if-else 块中可见
+if value := process(data); value > max {
+  ...
+}
+```
+**testing for errors**
+
+```go
+// 初始化 & 赋值
 value, err := pack1.Function1(param1)
 if err != nil {
+  // 错误处理
   fmt.Println("error msg")
   return err
 }
-// normal case, continue execution
+// normal case
 ```
 
+#### 2.3.2 Switch
 
+**switch**
+
+```go
+switch var1 {
+case var1, var2:
+  ...
+case vare3:
+  ...
+default:
+  ...
+}
+```
+
+**multi-branches**
+
+```go
+switch {
+case condition:
+  ...
+case condition2:
+  ...
+default:
+  ...
+}
+```
+
+#### 2.3.3 For
+
+**for-loop**
+
+```go
+for init; condition; modif {
+  ...
+}
+```
+
+**range**
+
+```go
+for i, val := range coll {
+  // val 是 copy
+}
+```
 
 
 
