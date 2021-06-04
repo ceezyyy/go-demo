@@ -1,4 +1,4 @@
-s# Go
+# Go
 
 ## Table of Contents
 
@@ -9,6 +9,7 @@ s# Go
 		- [2.2.1 Value Types](#221-value-types)
 		- [2.2.2 Reference Types](#222-reference-types)
 	- [2.3 Control Structures](#23-control-structures)
+- [3. Collections](#3-collections)
 - [References](#references)
 
 ## 1. Brainstorming
@@ -72,24 +73,10 @@ var a, b, c int
 
 ### 2.3 Control Structures
 
-#### 2.3.1 If else
-
-**if-else**
-
-```go
-if condition1 {
-  ...
-} else if condition2 {
-  ...
-} else {
-  ...
-}
-```
-
 **if-else w/ intialization**
 
 ```go
-// value 只在 if-else 块中可见
+// value is only visible in if-else block
 if value := process(data); value > max {
   ...
 }
@@ -107,26 +94,11 @@ if err != nil {
 // normal case
 ```
 
-#### 2.3.2 Switch
-
-**switch**
-
-```go
-switch var1 {
-case var1, var2:
-  ...
-case vare3:
-  ...
-default:
-  ...
-}
-```
-
 **multi-branches**
 
 ```go
 switch {
-case condition:
+case condition1:
   ...
 case condition2:
   ...
@@ -135,23 +107,17 @@ default:
 }
 ```
 
-#### 2.3.3 For
+## 3. Collections
 
-**for-loop**
+**Slices**
 
-```go
-for init; condition; modif {
-  ...
-}
-```
+- *pointer*
+- *len*
+- *cap*
 
-**range**
+<div align="center"> <img src="pics/image-20210604191219044.png" width="60%"/> </div><br>
 
-```go
-for i, val := range coll {
-  // val 是 copy
-}
-```
+
 
 
 
