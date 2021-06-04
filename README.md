@@ -111,7 +111,7 @@ default:
 
 **Slices**
 
-- *pointer*
+- *pointer*  
 - *len*
 - *cap*
 

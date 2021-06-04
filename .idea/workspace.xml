@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b95fa6f8-789b-4ba1-b9fa-386470025569" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/basic/10to1_recursive.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/blank_identifier.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/defer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/defer_dbconn.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/defer_tracing.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/fibonacci2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/function_literal.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/lambda_value.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/side_effect.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collections/arrays/array_value.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collections/arrays/for_array.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collections/arrays/for_arrays.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collections/arrays/pointer_array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collections/arrays/array_slices.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -77,7 +65,15 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
-  <component name="RunManager" selected="Go Build.go build for_array.go">
+  <component name="RunManager" selected="Go Build.go build array_slices.go">
+    <configuration name="go build array_slices.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-demo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/collections/arrays/array_slices.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build array_value.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
@@ -110,21 +106,13 @@
       <filePath value="$PROJECT_DIR$/collections/arrays/pointer_array.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build return_defer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-demo" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/basic/return_defer.go" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build array_slices.go" />
         <item itemvalue="Go Build.go build for_array.go" />
         <item itemvalue="Go Build.go build array_value.go" />
         <item itemvalue="Go Build.go build pointer_array.go" />
         <item itemvalue="Go Build.go build for_arrays.go" />
-        <item itemvalue="Go Build.go build return_defer.go" />
       </list>
     </recent_temporary>
   </component>
