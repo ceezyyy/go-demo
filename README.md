@@ -117,7 +117,28 @@ default:
 
 <div align="center"> <img src="pics/image-20210604191219044.png" width="60%"/> </div><br>
 
+**创建**
 
+```go
+// 1. 通过下标的方式获得数组或者切片的一部分
+arr[0:3] or slice[0:3]
+// 2. 使用字面量初始化新的切片
+slice := []int{1, 2, 3}
+// 3. 使用关键字 make 创建切片
+slice := make([]int, 10)
+```
+
+**make**
+
+<div align="center"> <img src="pics/image-20210606230641437.png" width="55%"/> </div><br>
+
+**for range**
+
+```go
+for i := range slice {
+  // 改变原切片
+}
+```
 
 
 
