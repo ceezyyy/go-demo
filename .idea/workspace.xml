@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b95fa6f8-789b-4ba1-b9fa-386470025569" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pics/image-20210607190049558.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pics/slice-struct.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slices/copy_append_slice.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slices/filter_slice.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slices/hello_to_cello.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slices/insert_slice.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slices/magnify_slice.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slices/min_max.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slices/remove_slice.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slices/string_reverse.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slices/string_slice.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slices/string_split.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slices/string_split2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slices/map_function.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -82,7 +70,7 @@
       <recent name="$PROJECT_DIR$/slices" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build string_reverse.go">
+  <component name="RunManager" selected="Go Build.go build map_function.go">
     <configuration name="go build hello_to_cello.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
@@ -91,20 +79,20 @@
       <filePath value="$PROJECT_DIR$/slices/hello_to_cello.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build map_function.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-demo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/slices/map_function.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build string_reverse.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/slices/string_reverse.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build string_slice.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-demo" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/slices/string_slice.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build string_split2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -125,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build map_function.go" />
         <item itemvalue="Go Build.go build string_reverse.go" />
         <item itemvalue="Go Build.go build string_split2.go" />
         <item itemvalue="Go Build.go build string_split.go" />
         <item itemvalue="Go Build.go build hello_to_cello.go" />
-        <item itemvalue="Go Build.go build string_slice.go" />
       </list>
     </recent_temporary>
   </component>

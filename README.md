@@ -111,11 +111,11 @@ default:
 
 **底层**
 
-<div align="center"> <img src="pics/slice-struct.png" width="50%"/> </div><br>
+<div align="center"> <img src="pics/slice-struct.png" width="55%"/> </div><br>
 
 *slice* 本身就是地址
 
-<div align="center"> <img src="pics/image-20210604191219044.png" width="55%"/> </div><br>
+<div align="center"> <img src="pics/image-20210604191219044.png" width="60%"/> </div><br>
 
 **创建**
 
@@ -130,7 +130,7 @@ slice := make([]int, 10)
 
 
 
-<div align="center"> <img src="pics/image-20210606230641437.png" width="50%"/> </div><br>
+<div align="center"> <img src="pics/image-20210606230641437.png" width="55%"/> </div><br>
 
 **扩容**
 
@@ -147,7 +147,7 @@ s = t
 
 **array of bytes**
 
-<div align="center"> <img src="pics/image-20210607190049558.png" width="40%"/> </div><br>
+<div align="center"> <img src="pics/image-20210607190049558.png" width="45%"/> </div><br>
 
 
 
