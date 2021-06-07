@@ -9,7 +9,7 @@
 		- [2.2.1 Value Types](#221-value-types)
 		- [2.2.2 Reference Types](#222-reference-types)
 	- [2.3 Control Structures](#23-control-structures)
-- [3. Collections](#3-collections)
+- [3. Slices](#3-slices)
 - [References](#references)
 
 ## 1. Brainstorming
@@ -107,15 +107,15 @@ default:
 }
 ```
 
-## 3. Collections
+## 3. Slices
 
-**Slices**
+**底层**
 
-- *pointer*  
-- *len*
-- *cap*
+<div align="center"> <img src="pics/slice-struct.png" width="50%"/> </div><br>
 
-<div align="center"> <img src="pics/image-20210604191219044.png" width="60%"/> </div><br>
+*slice* 本身就是地址
+
+<div align="center"> <img src="pics/image-20210604191219044.png" width="55%"/> </div><br>
 
 **创建**
 
@@ -128,17 +128,28 @@ slice := []int{1, 2, 3}
 slice := make([]int, 10)
 ```
 
-**make**
 
-<div align="center"> <img src="pics/image-20210606230641437.png" width="55%"/> </div><br>
 
-**for range**
+<div align="center"> <img src="pics/image-20210606230641437.png" width="50%"/> </div><br>
+
+**扩容**
 
 ```go
-for i := range slice {
-  // 改变原切片
+// 1. 分配新的 slice
+t := make([]byte, len(s), (cap(s)+1)*2) // +1 in case cap(s) == 0
+// 2. 封装了 copy(dst, src []Type) 函数
+for i := range s {
+        t[i] = s[i]
 }
+// 3. 重新指向
+s = t
 ```
+
+**array of bytes**
+
+<div align="center"> <img src="pics/image-20210607190049558.png" width="40%"/> </div><br>
+
+
 
 
 
@@ -148,5 +159,6 @@ for i := range slice {
 
 - *The Way to Go*
 - *The GO Programming Language*
+- [Go Slices: usage and internals](https://blog.golang.org/slices-intro)
 - [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
 - [字符编码笔记：ASCII，Unicode 和 UTF-8](https://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html)

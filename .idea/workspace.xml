@@ -2,18 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b95fa6f8-789b-4ba1-b9fa-386470025569" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pics/image-20210606230641437.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slices/byte_slices.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slices/make_slice.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slices/slices_forrange.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slices/sum_array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pics/image-20210607190049558.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pics/slice-struct.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slices/copy_append_slice.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slices/filter_slice.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slices/hello_to_cello.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slices/insert_slice.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slices/magnify_slice.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slices/min_max.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slices/remove_slice.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slices/string_reverse.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slices/string_slice.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slices/string_split.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slices/string_split2.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collections/arrays/array_slices.go" beforeDir="false" afterPath="$PROJECT_DIR$/slices/array_slices.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collections/arrays/array_value.go" beforeDir="false" afterPath="$PROJECT_DIR$/slices/array_value.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collections/arrays/for_array.go" beforeDir="false" afterPath="$PROJECT_DIR$/slices/for_array.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collections/arrays/for_arrays.go" beforeDir="false" afterPath="$PROJECT_DIR$/slices/for_arrays.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collections/arrays/pointer_array.go" beforeDir="false" afterPath="$PROJECT_DIR$/slices/pointer_array.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +30,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file:///usr/local/Cellar/go" />
+  <component name="GOROOT" url="file:///usr/local/Cellar/go/1.16.4/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -79,54 +82,54 @@
       <recent name="$PROJECT_DIR$/slices" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build sum_array.go">
-    <configuration name="go build array_slices.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build string_reverse.go">
+    <configuration name="go build hello_to_cello.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/collections/arrays/array_slices.go" />
+      <filePath value="$PROJECT_DIR$/slices/hello_to_cello.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build byte_slices.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build string_reverse.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/slices/byte_slices.go" />
+      <filePath value="$PROJECT_DIR$/slices/string_reverse.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build make_slice.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build string_slice.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/slices/make_slice.go" />
+      <filePath value="$PROJECT_DIR$/slices/string_slice.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build slices_forrange.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build string_split2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/slices/slices_forrange.go" />
+      <filePath value="$PROJECT_DIR$/slices/string_split2.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build sum_array.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build string_split.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/slices/sum_array.go" />
+      <filePath value="$PROJECT_DIR$/slices/string_split.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build sum_array.go" />
-        <item itemvalue="Go Build.go build slices_forrange.go" />
-        <item itemvalue="Go Build.go build make_slice.go" />
-        <item itemvalue="Go Build.go build byte_slices.go" />
-        <item itemvalue="Go Build.go build array_slices.go" />
+        <item itemvalue="Go Build.go build string_reverse.go" />
+        <item itemvalue="Go Build.go build string_split2.go" />
+        <item itemvalue="Go Build.go build string_split.go" />
+        <item itemvalue="Go Build.go build hello_to_cello.go" />
+        <item itemvalue="Go Build.go build string_slice.go" />
       </list>
     </recent_temporary>
   </component>
