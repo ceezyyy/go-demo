@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b95fa6f8-789b-4ba1-b9fa-386470025569" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/slices/map_function.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maps/if_present.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maps/make_maps.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maps/map_days.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maps/map_forrange.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maps/map_func.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -63,61 +67,61 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/slices" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build map_function.go">
-    <configuration name="go build hello_to_cello.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build map_days.go">
+    <configuration name="go build if_present.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/slices/hello_to_cello.go" />
+      <filePath value="$PROJECT_DIR$/maps/if_present.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build map_function.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build make_maps.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/slices/map_function.go" />
+      <filePath value="$PROJECT_DIR$/maps/make_maps.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build string_reverse.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build map_days.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/slices/string_reverse.go" />
+      <filePath value="$PROJECT_DIR$/maps/map_days.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build string_split2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build map_forrange.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/slices/string_split2.go" />
+      <filePath value="$PROJECT_DIR$/maps/map_forrange.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build string_split.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build map_func.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/slices/string_split.go" />
+      <filePath value="$PROJECT_DIR$/maps/map_func.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build map_function.go" />
-        <item itemvalue="Go Build.go build string_reverse.go" />
-        <item itemvalue="Go Build.go build string_split2.go" />
-        <item itemvalue="Go Build.go build string_split.go" />
-        <item itemvalue="Go Build.go build hello_to_cello.go" />
+        <item itemvalue="Go Build.go build map_days.go" />
+        <item itemvalue="Go Build.go build map_forrange.go" />
+        <item itemvalue="Go Build.go build if_present.go" />
+        <item itemvalue="Go Build.go build map_func.go" />
+        <item itemvalue="Go Build.go build make_maps.go" />
       </list>
     </recent_temporary>
   </component>

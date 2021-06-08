@@ -54,10 +54,10 @@
 // global, package 层面
 var s string
 
-// 只能 function 层面
+// function 层面
 s := "hello, world"
 
-// 声明相同类型的变量
+// 并列声明/赋值
 var a, b, c int
 ```
 
@@ -88,7 +88,6 @@ if value := process(data); value > max {
 value, err := pack1.Function1(param1)
 if err != nil {
   // 错误处理
-  fmt.Println("error msg")
   return err
 }
 // normal case
@@ -122,8 +121,10 @@ default:
 ```go
 // 1. 通过下标的方式获得数组或者切片的一部分
 arr[0:3] or slice[0:3]
+
 // 2. 使用字面量初始化新的切片
 slice := []int{1, 2, 3}
+
 // 3. 使用关键字 make 创建切片
 slice := make([]int, 10)
 ```
@@ -137,10 +138,12 @@ slice := make([]int, 10)
 ```go
 // 1. 分配新的 slice
 t := make([]byte, len(s), (cap(s)+1)*2) // +1 in case cap(s) == 0
+
 // 2. 封装了 copy(dst, src []Type) 函数
 for i := range s {
         t[i] = s[i]
 }
+
 // 3. 重新指向
 s = t
 ```
@@ -151,7 +154,28 @@ s = t
 
 
 
+## 4. Maps
 
+**创建**
+
+```go
+// 若 key 不存在, 则 val 为同类型的默认值
+mapLit := map[string]int{"one": 1, "two": 2}
+
+// 分配新的内存空间
+mapCreated := make(map[string]float32)
+
+// 相同内存地址
+mapAssigned := mapLit
+```
+
+**测试 key 是否存在**
+
+```go
+if val, isPresent := mapCreated[key]; isPresent {
+  // code
+}
+```
 
 
 
