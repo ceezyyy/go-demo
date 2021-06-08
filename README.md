@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+- [Table of Contents](#table-of-contents)
 - [1. Brainstorming](#1-brainstorming)
 - [2. Basic](#2-basic)
 	- [2.1 Execution](#21-execution)
@@ -9,7 +10,9 @@
 		- [2.2.1 Value Types](#221-value-types)
 		- [2.2.2 Reference Types](#222-reference-types)
 	- [2.3 Control Structures](#23-control-structures)
-- [3. Slices](#3-slices)
+	- [2.4 Slices](#24-slices)
+	- [2.5 Maps](#25-maps)
+- [3. Gin](#3-gin)
 - [References](#references)
 
 ## 1. Brainstorming
@@ -106,7 +109,7 @@ default:
 }
 ```
 
-## 3. Slices
+### 2.4 Slices
 
 **底层**
 
@@ -154,7 +157,7 @@ s = t
 
 
 
-## 4. Maps
+### 2.5 Maps
 
 **创建**
 
@@ -177,6 +180,43 @@ if val, isPresent := mapCreated[key]; isPresent {
 }
 ```
 
+## 3. Gin
+
+**预备**
+
+- 确保 *GOPATH* 配置正确
+- 若网络问题, 请修改代理为 *GOPROXY=https://goproxy.cn,direct*
+
+**main.go**
+
+```go
+// Quickstart
+import (
+	"github.com/gin-gonic/gin"
+)
+
+func main() {
+
+	// *Engine
+	r := gin.Default()
+
+	r.GET("/index", func(context *gin.Context) {
+		context.JSON(200, gin.H{
+			"hello": "world",
+		})
+	})
+
+	r.Run() // listen and serve on localhost:8080
+
+}
+```
+
+
+
+
+
+
+
 
 
 ## References
@@ -186,3 +226,4 @@ if val, isPresent := mapCreated[key]; isPresent {
 - [Go Slices: usage and internals](https://blog.golang.org/slices-intro)
 - [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
 - [字符编码笔记：ASCII，Unicode 和 UTF-8](https://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html)
+- [Gin Web Framework](https://github.com/gin-gonic/gin#gin-web-framework)

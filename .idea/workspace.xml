@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b95fa6f8-789b-4ba1-b9fa-386470025569" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/maps/if_present.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maps/make_maps.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maps/map_days.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maps/map_forrange.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maps/map_func.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/.idea/web.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/web/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +20,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file:///usr/local/Cellar/go/1.16.4/libexec" />
+  <component name="GOROOT" url="file:///usr/local/Cellar/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -37,10 +35,13 @@
   <component name="GoLibraries">
     <option name="urls">
       <list>
-        <option value="file://$PROJECT_DIR$" />
+        <option value="file://$USER_HOME$/go" />
       </list>
     </option>
     <option name="useGoPathFromSystemEnvironment" value="false" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/slices/sum_array.go" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1t1lnHvgFLfhuCsNwX4pcSnsePx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -56,12 +57,12 @@
     <property name="DefaultGoTemplateProperty" value="Go Application" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable..is.expanded" value="false" />
     <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -74,13 +75,13 @@
       <recent name="$PROJECT_DIR$/slices" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build map_days.go">
-    <configuration name="go build if_present.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build map_func.go">
+    <configuration name="go build 10to1_recursive.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/maps/if_present.go" />
+      <filePath value="$PROJECT_DIR$/basic/10to1_recursive.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build make_maps.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -117,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build map_days.go" />
-        <item itemvalue="Go Build.go build map_forrange.go" />
-        <item itemvalue="Go Build.go build if_present.go" />
         <item itemvalue="Go Build.go build map_func.go" />
         <item itemvalue="Go Build.go build make_maps.go" />
+        <item itemvalue="Go Build.go build 10to1_recursive.go" />
+        <item itemvalue="Go Build.go build map_days.go" />
+        <item itemvalue="Go Build.go build map_forrange.go" />
       </list>
     </recent_temporary>
   </component>

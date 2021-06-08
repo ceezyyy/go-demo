@@ -1,26 +1,20 @@
 package main
 
 import (
-	"fmt"
-	"net/http"
+	"github.com/gin-gonic/gin"
 )
 
-// Server
 func main() {
 
-	// controller
-	http.HandleFunc("/hello", sayHello)
+	// *Engine
+	r := gin.Default()
 
-	// 监听端口
-	err := http.ListenAndServe(":9090", nil)
-	if err != nil {
-		fmt.Printf("Oooops! err: %v\n", err)
-		return
-	}
+	r.GET("/index", func(context *gin.Context) {
+		context.JSON(200, gin.H{
+			"hello": "world",
+		})
+	})
 
-}
+	r.Run() // listen and serve on localhost:8080
 
-//sayHello 请求, 响应
-func sayHello(w http.ResponseWriter, r *http.Request) {
-	_, _ = fmt.Fprintln(w, "<h1>Hello World</h1>")
 }
