@@ -2,11 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b95fa6f8-789b-4ba1-b9fa-386470025569" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gindemo/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pics/image-20210609115849897.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pics/image-20210609115944249.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structs/anonymous_struct.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structs/embed_struct.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structs/person.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structs/personex1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structs/point.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structs/rectangle.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structs/structs_anonymous.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structs/structs_fields.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structs/structs_init.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.svg" beforeDir="false" afterPath="$PROJECT_DIR$/go.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/go.xmind" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/web/.idea/web.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/web/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/main.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +38,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file:///usr/local/Cellar/go" />
+  <component name="GOROOT" url="file:///usr/local/Cellar/go/1.16.4/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -35,7 +53,7 @@
   <component name="GoLibraries">
     <option name="urls">
       <list>
-        <option value="file://$USER_HOME$/go" />
+        <option value="file:///usr/local/Cellar/go/1.16.4" />
       </list>
     </option>
     <option name="useGoPathFromSystemEnvironment" value="false" />
@@ -75,54 +93,54 @@
       <recent name="$PROJECT_DIR$/slices" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build map_func.go">
-    <configuration name="go build 10to1_recursive.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build anonymous_struct.go">
+    <configuration name="go build anonymous_struct.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/basic/10to1_recursive.go" />
+      <filePath value="$PROJECT_DIR$/structs/anonymous_struct.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build make_maps.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build embed_struct.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/maps/make_maps.go" />
+      <filePath value="$PROJECT_DIR$/structs/embed_struct.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build map_days.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build personex1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/maps/map_days.go" />
+      <filePath value="$PROJECT_DIR$/structs/personex1.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build map_forrange.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build rectangle.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/maps/map_forrange.go" />
+      <filePath value="$PROJECT_DIR$/structs/rectangle.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build map_func.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build structs_anonymous.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/maps/map_func.go" />
+      <filePath value="$PROJECT_DIR$/structs/structs_anonymous.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build map_func.go" />
-        <item itemvalue="Go Build.go build make_maps.go" />
-        <item itemvalue="Go Build.go build 10to1_recursive.go" />
-        <item itemvalue="Go Build.go build map_days.go" />
-        <item itemvalue="Go Build.go build map_forrange.go" />
+        <item itemvalue="Go Build.go build anonymous_struct.go" />
+        <item itemvalue="Go Build.go build embed_struct.go" />
+        <item itemvalue="Go Build.go build structs_anonymous.go" />
+        <item itemvalue="Go Build.go build rectangle.go" />
+        <item itemvalue="Go Build.go build personex1.go" />
       </list>
     </recent_temporary>
   </component>

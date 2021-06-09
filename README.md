@@ -122,13 +122,13 @@ default:
 **创建**
 
 ```go
-// 1. 通过下标的方式获得数组或者切片的一部分
+// 获得数组或者切片的一部分
 arr[0:3] or slice[0:3]
 
-// 2. 使用字面量初始化新的切片
+// 字面量
 slice := []int{1, 2, 3}
 
-// 3. 使用关键字 make 创建切片
+// 关键字 make
 slice := make([]int, 10)
 ```
 
@@ -180,6 +180,30 @@ if val, isPresent := mapCreated[key]; isPresent {
 }
 ```
 
+### 2.6 Structs
+
+**底层**
+
+<div align="center"> <img src="pics/image-20210609115944249.png" width="65%"/> </div><br>
+
+**创建**
+
+```go
+// value type 
+var ms1 myStruct
+
+// pointer: 为该类型分配内存空间, 并返回指针
+ms2 := new(myStruct)
+
+// 作为 pointer 的另一种形式
+ms3 := &myStruct{"field": val}
+```
+
+**嵌套**
+
+<div align="center"> <img src="pics/image-20210609150224083.png" width="60%"/> </div><br>
+
+
 ## 3. Gin
 
 **预备**
@@ -227,3 +251,4 @@ func main() {
 - [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
 - [字符编码笔记：ASCII，Unicode 和 UTF-8](https://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html)
 - [Gin Web Framework](https://github.com/gin-gonic/gin#gin-web-framework)
+- [Go 语言设计与实现](https://draveness.me/golang/)
