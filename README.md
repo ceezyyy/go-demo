@@ -2,7 +2,6 @@
 
 ## Table of Contents
 
-- [Table of Contents](#table-of-contents)
 - [1. Brainstorming](#1-brainstorming)
 - [2. Basic](#2-basic)
 	- [2.1 Execution](#21-execution)
@@ -12,7 +11,7 @@
 	- [2.3 Control Structures](#23-control-structures)
 	- [2.4 Slices](#24-slices)
 	- [2.5 Maps](#25-maps)
-- [3. Gin](#3-gin)
+	- [2.6 Structs](#26-structs)
 - [References](#references)
 
 ## 1. Brainstorming
@@ -134,7 +133,7 @@ slice := make([]int, 10)
 
 
 
-<div align="center"> <img src="pics/image-20210606230641437.png" width="55%"/> </div><br>
+<div align="center"> <img src="pics/image-20210606230641437.png" width="50%"/> </div><br>
 
 **扩容**
 
@@ -153,7 +152,7 @@ s = t
 
 **array of bytes**
 
-<div align="center"> <img src="pics/image-20210607190049558.png" width="45%"/> </div><br>
+<div align="center"> <img src="pics/image-20210607190049558.png" width="40%"/> </div><br>
 
 
 
@@ -202,38 +201,6 @@ ms3 := &myStruct{"field": val}
 **嵌套**
 
 <div align="center"> <img src="pics/image-20210609150224083.png" width="60%"/> </div><br>
-
-
-## 3. Gin
-
-**预备**
-
-- 确保 *GOPATH* 配置正确
-- 若网络问题, 请修改代理为 *GOPROXY=https://goproxy.cn,direct*
-
-**main.go**
-
-```go
-// Quickstart
-import (
-	"github.com/gin-gonic/gin"
-)
-
-func main() {
-
-	// *Engine
-	r := gin.Default()
-
-	r.GET("/index", func(context *gin.Context) {
-		context.JSON(200, gin.H{
-			"hello": "world",
-		})
-	})
-
-	r.Run() // listen and serve on localhost:8080
-
-}
-```
 
 
 

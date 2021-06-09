@@ -2,29 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b95fa6f8-789b-4ba1-b9fa-386470025569" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gindemo/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pics/image-20210609115849897.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pics/image-20210609115944249.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structs/anonymous_struct.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structs/embed_struct.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structs/person.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structs/personex1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structs/point.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structs/rectangle.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structs/structs_anonymous.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structs/structs_fields.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structs/structs_init.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.svg" beforeDir="false" afterPath="$PROJECT_DIR$/go.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/go.xmind" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/.idea/web.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/go.sum" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gindemo/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
