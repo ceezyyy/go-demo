@@ -204,9 +204,67 @@ ms3 := &myStruct{"field": val}
 
 
 
+**继承**
 
+```go
+// 同一个包下, 子类可以访问父类的字段和方法
+type Child struct {
+  Father, // 匿名类
+  Mother, // 匿名类
+}
+```
 
+### 2.7 Interface
 
+**Interface**
+
+```go
+type Namer interface {
+  // method set (0-3)
+}
+
+// 接口变量
+var ai Namer
+```
+
+**接口变量**
+
+<div align="center"> <img src="pics/image-20210611155958101.png" width="40%"/> </div><br>
+
+**Empty Interface**
+
+```go
+type Any interface{}
+```
+
+### 2.8 Reflection
+
+**TypeOf**
+
+```go
+// 获取类型信息
+func TypeOf(i interface{}) Type {
+}
+```
+
+**ValueOf**
+
+```go
+func ValueOf(i interface{}) Value {
+}
+```
+
+**第一法则**
+
+将 *interface{}* 变量转换成反射对象（函数调用是值传递）
+
+**第二法则**
+
+从反射对象获取 *interface{}* 变量
+
+**第三法则**
+
+值是否可以被更改
 
 
 
@@ -219,3 +277,4 @@ ms3 := &myStruct{"field": val}
 - [字符编码笔记：ASCII，Unicode 和 UTF-8](https://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html)
 - [Gin Web Framework](https://github.com/gin-gonic/gin#gin-web-framework)
 - [Go 语言设计与实现](https://draveness.me/golang/)
+- [Go语言 | Go 1.9 新特性 Type Alias详解](https://www.flysnow.org/2017/08/26/go-1-9-type-alias.html)

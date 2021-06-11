@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b95fa6f8-789b-4ba1-b9fa-386470025569" name="Default Changelist" comment="" />
+    <list default="true" id="b95fa6f8-789b-4ba1-b9fa-386470025569" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/interface/empty_interface.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface/emptyint_switch.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface/interfaces.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface/simple_interface.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pics/image-20210611155958101.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/receiver/celsius.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/receiver/days.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/receiver/employee_salary.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/receiver/inherit_methods.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/receiver/inheritance_car.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/receiver/methods.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/receiver/type_string.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reflect/reflect1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,54 +85,54 @@
       <recent name="$PROJECT_DIR$/slices" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build anonymous_struct.go">
-    <configuration name="go build anonymous_struct.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build reflect1.go">
+    <configuration name="go build empty_interface.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/structs/anonymous_struct.go" />
+      <filePath value="$PROJECT_DIR$/interface/empty_interface.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build embed_struct.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build emptyint_switch.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/structs/embed_struct.go" />
+      <filePath value="$PROJECT_DIR$/interface/emptyint_switch.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build personex1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build interfaces.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/structs/personex1.go" />
+      <filePath value="$PROJECT_DIR$/interface/interfaces.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build rectangle.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build reflect1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/structs/rectangle.go" />
+      <filePath value="$PROJECT_DIR$/reflect/reflect1.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build structs_anonymous.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build simple_interface.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/structs/structs_anonymous.go" />
+      <filePath value="$PROJECT_DIR$/interface/simple_interface.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build anonymous_struct.go" />
-        <item itemvalue="Go Build.go build embed_struct.go" />
-        <item itemvalue="Go Build.go build structs_anonymous.go" />
-        <item itemvalue="Go Build.go build rectangle.go" />
-        <item itemvalue="Go Build.go build personex1.go" />
+        <item itemvalue="Go Build.go build reflect1.go" />
+        <item itemvalue="Go Build.go build emptyint_switch.go" />
+        <item itemvalue="Go Build.go build empty_interface.go" />
+        <item itemvalue="Go Build.go build simple_interface.go" />
+        <item itemvalue="Go Build.go build interfaces.go" />
       </list>
     </recent_temporary>
   </component>
