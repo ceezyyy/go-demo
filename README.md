@@ -12,6 +12,9 @@
 	- [2.4 Slices](#24-slices)
 	- [2.5 Maps](#25-maps)
 	- [2.6 Structs](#26-structs)
+	- [2.7 Interface](#27-interface)
+	- [2.8 Reflection](#28-reflection)
+	- [2.9 Testing](#29-testing)
 - [References](#references)
 
 ## 1. Brainstorming
@@ -216,43 +219,12 @@ type Child struct {
 
 ### 2.7 Interface
 
-**Interface**
-
-```go
-type Namer interface {
-  // method set (0-3)
-}
-
-// 接口变量
-var ai Namer
-```
-
 **接口变量**
 
 <div align="center"> <img src="pics/image-20210611155958101.png" width="40%"/> </div><br>
 
-**Empty Interface**
-
-```go
-type Any interface{}
-```
 
 ### 2.8 Reflection
-
-**TypeOf**
-
-```go
-// 获取类型信息
-func TypeOf(i interface{}) Type {
-}
-```
-
-**ValueOf**
-
-```go
-func ValueOf(i interface{}) Value {
-}
-```
 
 **第一法则**
 
@@ -266,6 +238,26 @@ func ValueOf(i interface{}) Value {
 
 值是否可以被更改
 
+### 2.9 Testing
+
+**Error handling**
+
+```go
+if value, err := pack1.Func1(param1); err != nil {
+  fmt.Printf("Error %s in pack1,Func1 with parameter %v", err.Error(), para1)
+  // or: return err
+  return 
+}
+Process(value)
+```
+
+
+
+## 3. Concurrency
+
+### 3.1 Channel
+
+<div align="center"> <img src="pics/image-20210614170020244.png" width="55%"/> </div><br>
 
 
 ## References
@@ -278,3 +270,4 @@ func ValueOf(i interface{}) Value {
 - [Gin Web Framework](https://github.com/gin-gonic/gin#gin-web-framework)
 - [Go 语言设计与实现](https://draveness.me/golang/)
 - [Go语言 | Go 1.9 新特性 Type Alias详解](https://www.flysnow.org/2017/08/26/go-1-9-type-alias.html)
+- [Type assertions and type switches](https://yourbasic.org/golang/type-assertion-switch/)

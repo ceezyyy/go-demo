@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b95fa6f8-789b-4ba1-b9fa-386470025569" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/interface/empty_interface.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/emptyint_switch.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/interfaces.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/simple_interface.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pics/image-20210611155958101.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/receiver/celsius.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/receiver/days.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/receiver/employee_salary.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/receiver/inherit_methods.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/receiver/inheritance_car.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/receiver/methods.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/receiver/type_string.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reflect/reflect1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/type_switch.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/blocking.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/channel_block.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/channel_block3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/channel_buffer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/goroutine1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/goroutine2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface/duck_dance.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface/map_func_interface.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reflect/reflect2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reflect/reflect_struct.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/panic_defer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/panic_defer_convit.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/recover_dividebyzero.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -30,7 +34,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file:///usr/local/Cellar/go/1.16.4/libexec" />
+  <component name="GOROOT" url="file:///usr/local/Cellar/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -43,12 +47,7 @@
     </file-type-list>
   </component>
   <component name="GoLibraries">
-    <option name="urls">
-      <list>
-        <option value="file:///usr/local/Cellar/go/1.16.4" />
-      </list>
-    </option>
-    <option name="useGoPathFromSystemEnvironment" value="false" />
+    <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/slices/sum_array.go" root0="FORCE_HIGHLIGHTING" />
@@ -78,61 +77,61 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/slices" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build reflect1.go">
-    <configuration name="go build empty_interface.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build channel_buffer.go">
+    <configuration name="go build blocking.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/interface/empty_interface.go" />
+      <filePath value="$PROJECT_DIR$/concurrency/blocking.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build emptyint_switch.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build channel_block3.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/interface/emptyint_switch.go" />
+      <filePath value="$PROJECT_DIR$/concurrency/channel_block3.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build interfaces.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build channel_block.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/interface/interfaces.go" />
+      <filePath value="$PROJECT_DIR$/concurrency/channel_block.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build reflect1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build channel_buffer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/reflect/reflect1.go" />
+      <filePath value="$PROJECT_DIR$/concurrency/channel_buffer.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build simple_interface.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build goroutine2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/interface/simple_interface.go" />
+      <filePath value="$PROJECT_DIR$/concurrency/goroutine2.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build reflect1.go" />
-        <item itemvalue="Go Build.go build emptyint_switch.go" />
-        <item itemvalue="Go Build.go build empty_interface.go" />
-        <item itemvalue="Go Build.go build simple_interface.go" />
-        <item itemvalue="Go Build.go build interfaces.go" />
+        <item itemvalue="Go Build.go build channel_buffer.go" />
+        <item itemvalue="Go Build.go build channel_block3.go" />
+        <item itemvalue="Go Build.go build blocking.go" />
+        <item itemvalue="Go Build.go build channel_block.go" />
+        <item itemvalue="Go Build.go build goroutine2.go" />
       </list>
     </recent_temporary>
   </component>
