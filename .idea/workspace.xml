@@ -5,22 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b95fa6f8-789b-4ba1-b9fa-386470025569" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/basic/type_switch.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/blocking.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/channel_block.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/channel_block3.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/channel_buffer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/goroutine1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/goroutine2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/duck_dance.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/map_func_interface.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reflect/reflect2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reflect/reflect_struct.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/panic_defer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/panic_defer_convit.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/recover_dividebyzero.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/channels.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/goroutine.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/json.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slices/slices.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/string/string-formatting.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +24,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file:///usr/local/Cellar/go" />
+  <component name="GOROOT" url="file:///usr/local/Cellar/go/1.16.4/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -84,54 +74,54 @@
       <recent name="$PROJECT_DIR$/slices" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build channel_buffer.go">
-    <configuration name="go build blocking.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build channels.go">
+    <configuration name="go build channels.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/concurrency/blocking.go" />
+      <filePath value="$PROJECT_DIR$/concurrency/channels.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build channel_block3.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build goroutine.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/concurrency/channel_block3.go" />
+      <filePath value="$PROJECT_DIR$/concurrency/goroutine.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build channel_block.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build json.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/concurrency/channel_block.go" />
+      <filePath value="$PROJECT_DIR$/json/json.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build channel_buffer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build slices.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/concurrency/channel_buffer.go" />
+      <filePath value="$PROJECT_DIR$/slices/slices.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build goroutine2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build string-formatting.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/concurrency/goroutine2.go" />
+      <filePath value="$PROJECT_DIR$/string/string-formatting.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build channel_buffer.go" />
-        <item itemvalue="Go Build.go build channel_block3.go" />
-        <item itemvalue="Go Build.go build blocking.go" />
-        <item itemvalue="Go Build.go build channel_block.go" />
-        <item itemvalue="Go Build.go build goroutine2.go" />
+        <item itemvalue="Go Build.go build channels.go" />
+        <item itemvalue="Go Build.go build goroutine.go" />
+        <item itemvalue="Go Build.go build slices.go" />
+        <item itemvalue="Go Build.go build string-formatting.go" />
+        <item itemvalue="Go Build.go build json.go" />
       </list>
     </recent_temporary>
   </component>

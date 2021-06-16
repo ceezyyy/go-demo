@@ -264,6 +264,7 @@ Process(value)
 
 - *The Way to Go*
 - *The GO Programming Language*
+- [Go by Example](https://gobyexample.com/)
 - [Go Slices: usage and internals](https://blog.golang.org/slices-intro)
 - [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
 - [字符编码笔记：ASCII，Unicode 和 UTF-8](https://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html)
