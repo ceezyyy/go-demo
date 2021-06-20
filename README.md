@@ -255,9 +255,12 @@ Process(value)
 
 ## 3. Concurrency
 
-### 3.1 Channel
+**Channels & goroutines**
 
 <div align="center"> <img src="pics/image-20210614170020244.png" width="55%"/> </div><br>
+
+
+
 
 
 ## References
