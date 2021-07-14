@@ -7,10 +7,12 @@ import (
 
 func main() {
 
-	p := fmt.Println
-	now := time.Now()
+	//ts := time.Now().Unix()
+	//fmt.Println(ts)
 
-	p(now)
+	t := time.Now()
+	fmt.Println(t)
 
+	fmt.Println(t.Format("2006-01-02 15:04:05"))
 
 }

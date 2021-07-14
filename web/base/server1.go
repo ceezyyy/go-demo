@@ -14,15 +14,16 @@ var err error
 func main() {
 
 	var conn net.Conn
-
 	fmt.Println("starting server")
+
+	// listener
 	listener, err = net.Listen("tcp", "localhost: 10000")
 	if err != nil {
 		fmt.Printf("start listener failed, %v\n", err)
 		return
 	}
 
-	// infinite loop: 一直接收请求
+	// accept request
 	for {
 		// wait for the connection
 		conn, err = listener.Accept()
