@@ -5,34 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b95fa6f8-789b-4ba1-b9fa-386470025569" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/basic/err_with_named_var.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flag/command_line_flags.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pics/image-20210622101720324.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pics/image-20210622110347771.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pics/slice-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pics/slice-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pics/slice-array.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/random/random_nums.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slices/slice_month.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/base/handler_func.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/base/http_clients.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/base/http_servers.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/base/multi_handler.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/base/my_server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/body/show_body.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/httprouter/httprouter.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/reqheader/show_header.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resp_json/resp_json.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/booleans.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/booleans.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slices/slices.go" beforeDir="false" afterPath="$PROJECT_DIR$/slices/slices.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/string/string-formatting.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/select.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/waitgroups.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/waitgroups.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/json.go" beforeDir="false" afterPath="$PROJECT_DIR$/json/json.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/time/time.go" beforeDir="false" afterPath="$PROJECT_DIR$/time/time.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/web/base/client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/client1.go" beforeDir="false" afterPath="$PROJECT_DIR$/web/base/client1.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/web/base/server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/server1.go" beforeDir="false" afterPath="$PROJECT_DIR$/web/base/server1.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,37 +78,37 @@
       <recent name="$PROJECT_DIR$/web" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build time.go">
-    <configuration name="go build booleans.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build channel_block.go">
+    <configuration name="go build channel_block.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/basic/booleans.go" />
+      <filePath value="$PROJECT_DIR$/concurrency/channel_block.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build random_nums.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build epoch.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/random/random_nums.go" />
+      <filePath value="$PROJECT_DIR$/time/epoch.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build slice_month.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build json.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/slices/slice_month.go" />
+      <filePath value="$PROJECT_DIR$/json/json.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build slices.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build select.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/slices/slices.go" />
+      <filePath value="$PROJECT_DIR$/concurrency/select.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build time.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -144,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build channel_block.go" />
+        <item itemvalue="Go Build.go build select.go" />
+        <item itemvalue="Go Build.go build epoch.go" />
         <item itemvalue="Go Build.go build time.go" />
-        <item itemvalue="Go Build.go build random_nums.go" />
-        <item itemvalue="Go Build.go build slice_month.go" />
-        <item itemvalue="Go Build.go build slices.go" />
-        <item itemvalue="Go Build.go build booleans.go" />
+        <item itemvalue="Go Build.go build json.go" />
       </list>
     </recent_temporary>
   </component>

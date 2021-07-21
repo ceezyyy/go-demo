@@ -6,6 +6,7 @@ import (
 	"time"
 )
 
+// 重要!!!
 // wait group: 等待所有 goroutines 完成
 func main() {
 
@@ -14,7 +15,6 @@ func main() {
 	for i := 0; i < 3; i++ {
 		// counter++
 		wg.Add(1)
-		// 指针
 		go worker2(i, &wg)
 	}
 
@@ -23,7 +23,6 @@ func main() {
 
 }
 
-// 指针
 func worker2(id int, wg *sync.WaitGroup) {
 
 	// counter--
