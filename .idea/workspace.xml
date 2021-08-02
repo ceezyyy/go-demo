@@ -5,11 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b95fa6f8-789b-4ba1-b9fa-386470025569" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/basic/byte_of_int.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/type_assertions.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/variadic_para.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/defer/defer_evaluated.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/init_func/init_func.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maps/maps.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/random/shuffle.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slices/slice_append.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strings/string_format.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/select.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/waitgroups.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/waitgroups.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/json.go" beforeDir="false" afterPath="$PROJECT_DIR$/json/json.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/time/time.go" beforeDir="false" afterPath="$PROJECT_DIR$/time/time.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/defer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/for1.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/for1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/random_nums.go" beforeDir="false" afterPath="$PROJECT_DIR$/random/random_nums.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slices/string_slice.go" beforeDir="false" afterPath="$PROJECT_DIR$/defer/defer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time/tickers.go" beforeDir="false" afterPath="$PROJECT_DIR$/time/tickers.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,54 +90,54 @@
       <recent name="$PROJECT_DIR$/web" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build channel_block.go">
-    <configuration name="go build channel_block.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build defer.go (1)">
+    <configuration name="go build defer_evaluated.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/concurrency/channel_block.go" />
+      <filePath value="$PROJECT_DIR$/defer/defer_evaluated.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build epoch.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build defer.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/time/epoch.go" />
+      <filePath value="$PROJECT_DIR$/defer/defer.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build json.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build defer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/json/json.go" />
+      <filePath value="$PROJECT_DIR$/basic/defer.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build select.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build defer_lifo.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/concurrency/select.go" />
+      <filePath value="$PROJECT_DIR$/defer/defer_lifo.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build time.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build tickers.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/time/time.go" />
+      <filePath value="$PROJECT_DIR$/time/tickers.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build channel_block.go" />
-        <item itemvalue="Go Build.go build select.go" />
-        <item itemvalue="Go Build.go build epoch.go" />
-        <item itemvalue="Go Build.go build time.go" />
-        <item itemvalue="Go Build.go build json.go" />
+        <item itemvalue="Go Build.go build defer.go (1)" />
+        <item itemvalue="Go Build.go build tickers.go" />
+        <item itemvalue="Go Build.go build defer_lifo.go" />
+        <item itemvalue="Go Build.go build defer_evaluated.go" />
+        <item itemvalue="Go Build.go build defer.go" />
       </list>
     </recent_temporary>
   </component>

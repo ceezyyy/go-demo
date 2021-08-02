@@ -5,28 +5,19 @@ import (
 	"time"
 )
 
-// do sth repeatedly
+var counter int
+
+// Excellent for repeated tasks
 func main() {
 
-	ticker := time.NewTicker(time.Second)
-	done := make(chan bool)
+	fmt.Println("ticker tutorial")
 
-	go func() {
-		for {
-			select {
-			case <-done:
-				return
-			case t := <-ticker.C:
-				fmt.Println("Tick at", t)
-				//default:
-				//	fmt.Println("default here")
-			}
-		}
-	}()
+	ticker := time.NewTicker(1 * time.Second)
 
-	time.Sleep(10 * time.Second)
-	//ticker.Stop()
-	done <- true
-	fmt.Println("ticker stopped")
+	// C <-chan Time // The channel on which the ticks are delivered
+	for _ = range ticker.C {
+		counter++
+		fmt.Printf("ticker %d\n", counter)
+	}
 
 }

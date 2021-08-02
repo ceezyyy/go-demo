@@ -4,10 +4,10 @@
 
 - [1. Basic](#1-basic)
 	- [1.1 Execution](#11-execution)
-	- [1.2 Composite Types](#12-composite-types)
-		- [1.2.1 Value v.s Pointer](#121-value-vs-pointer)
-		- [1.2.2 Fixed Size](#122-fixed-size)
-		- [1.2.3 Dynamic](#123-dynamic)
+	- [1.2 Value v.s Pointer](#12-value-vs-pointer)
+	- [1.3 Slices](#13-slices)
+	- [1.4 Maps](#14-maps)
+	- [1.5 Structs](#15-structs)
 - [2. Concurrency](#2-concurrency)
 - [3. Web](#3-web)
 - [References](#references)
@@ -25,9 +25,31 @@
 3. 所有 *const* 和 *variables* 将被赋值，调用 *init()*（若存在）
 4. 执行 *main()*
 
-### 1.2 Composite Types
+**init 函数**
 
-#### 1.2.1 Value v.s Pointer
+```go
+var WhatIsThe = AnswerToLife()
+
+func AnswerToLife() int {
+    return 42
+}
+
+func init() {
+    WhatIsThe = 0
+}
+
+func main() {
+    if WhatIsThe == 0 {
+        fmt.Println("It's all a lie.")
+    }
+}
+```
+
+
+
+
+
+### 1.2 Value v.s Pointer
 
 **value**
 
@@ -41,29 +63,15 @@
 
 
 
-#### 1.2.2 Fixed Size
+### 1.3 Slices
 
 **Arrays**
 
 <div align="center"> <img src="./pics/slice-array.png" width="50%"/> </div><br>
 
-
-
-**Structs**
-
-
-
-#### 1.2.3 Dynamic
-
-**Slices**
+**Slices 底层结构**
 
 <div align="center"> <img src="pics/slice-struct.png" width="55%"/> </div><br>
-
-**len 与 cap 的关系**
-
-```go
-s = make([]byte, 5)
-```
 
 
 
@@ -71,15 +79,9 @@ s = make([]byte, 5)
 
 
 
-```go
-s = s[2:4]
-```
-
-
-
 <div align="center"> <img src="./pics/slice-2.png" width="50%"/> </div><br>
 
-**append**
+**扩容**
 
 ```go
 t := make([]byte, len(s), (cap(s)+1)*2)  // 思考: 为什么 "+1"
@@ -87,13 +89,23 @@ copy(t, s)
 s = t
 ```
 
-**maps**
+
+
+**设置 len 和 cap 相同**
+
+```go
+// 1. append 后不会修改底层数组
+// 2. 保持为切片申请新的底层数组的简洁
+newSlice := originSlice[i:j:j]
+```
+
+### 1.4 Maps
 
 
 
 
 
-
+### 1.5 Structs
 
 **底层**
 
@@ -110,8 +122,8 @@ s = t
 ```go
 // 同一个包下, 子类可以访问父类的字段和方法
 type Child struct {
-  Father, // 匿名类
-  Mother, // 匿名类
+		Father, // 匿名类
+  	Mother, // 匿名类
 }
 ```
 
@@ -144,11 +156,13 @@ type Child struct {
 - *The Way to Go*
 - *The GO Programming Language*
 - *Go Web Programming*
+- *Go in Action*
 - [Go by Example](https://gobyexample.com/)
 - [Go Slices: usage and internals](https://blog.golang.org/slices-intro)
 - [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
 - [字符编码笔记：ASCII，Unicode 和 UTF-8](https://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html)
-- [Gin Web Framework](https://github.com/gin-gonic/gin#gin-web-framework)
 - [Go 语言设计与实现](https://draveness.me/golang/)
 - [Go语言 | Go 1.9 新特性 Type Alias详解](https://www.flysnow.org/2017/08/26/go-1-9-type-alias.html)
 - [Type assertions and type switches](https://yourbasic.org/golang/type-assertion-switch/)
+- [Go maps in action](https://blog.golang.org/maps)
+- [When is the init() function run?](https://stackoverflow.com/questions/24790175/when-is-the-init-function-run)
