@@ -5,23 +5,125 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b95fa6f8-789b-4ba1-b9fa-386470025569" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/basic/byte_of_int.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/type_assertions.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/variadic_para.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/defer/defer_evaluated.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/init_func/init_func.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maps/maps.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/random/shuffle.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slices/slice_append.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strings/string_format.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/components/booleans.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/defer/named_variables.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/defer/trace.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/interface/empty_interface_demo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/slices/slice_demo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/variadic/sum.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/variadic/type.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/clock1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/json_demo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/url/url.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/defer.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/for1.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/for1.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random/random_nums.go" beforeDir="false" afterPath="$PROJECT_DIR$/random/random_nums.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slices/string_slice.go" beforeDir="false" afterPath="$PROJECT_DIR$/defer/defer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/time/tickers.go" beforeDir="false" afterPath="$PROJECT_DIR$/time/tickers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/10to1_recursive.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/components/10to1_recursive.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/blank_identifier.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/components/blank_identifier.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/booleans.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/byte_of_int.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/components/byte_of_int.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/count_characters.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/components/count_characters.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/defer_dbconn.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/components/defer_dbconn.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/defer_tracing.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/components/defer_tracing.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/divby0.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/components/divby0.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/err_with_named_var.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/components/err_with_named_var.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/error_returnval.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/components/error_returnval.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/fibonacci2.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/components/fibonacci2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/fizzbuzz.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/components/fizzbuzz.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/for1.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/components/for1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/for_character.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/components/for_character.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/for_loop.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/components/for_loop.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/func_calls_func.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/components/func_calls_func.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/func_of_strings.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/components/func_of_strings.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/function_literal.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/components/function_literal.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/ifelse.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/components/ifelse.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/ifelse_visible.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/components/ifelse_visible.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/lambda_value.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/components/lambda_value.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/local_scope.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/components/local_scope.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/mult_returnval.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/components/mult_returnval.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/multi_return.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/components/multi_return.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/pointer.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/components/pointer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/rectangle_stars.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/components/rectangle_stars.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/season.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/components/season.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/side_effect.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/components/side_effect.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/str_ptr.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/components/str_ptr.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/string_conversion.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/components/string_conversion.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/switch1.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/components/switch1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/switch2.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/components/switch2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/switch3.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/components/switch3.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/type_assertions.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/components/type_assertions.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/type_switch.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/components/type_switch.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/variadic_para.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/components/variadic_para.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/defer/defer.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/defer/defer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/defer/defer_evaluated.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/defer/defer_evaluated.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flag/command_line_flags.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloworld/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/init_func/init_func.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/duck_dance.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/interface/duck_dance.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/empty_interface.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/interface/empty_interface.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/emptyint_switch.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/interface/emptyint_switch.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/interfaces.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/interface/interfaces.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/map_func_interface.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/interface/map_func_interface.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/simple_interface.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/interface/simple_interface.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/json.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/if_present.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/maps/if_present.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/make_maps.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/maps/make_maps.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/map_days.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/maps/map_days.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/map_forrange.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/maps/map_forrange.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/map_func.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/maps/map_func.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/maps.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/maps/maps.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/random_nums.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/shuffle.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/receiver/celsius.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/receiver/celsius.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/receiver/days.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/receiver/days.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/receiver/employee_salary.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/receiver/employee_salary.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/receiver/inherit_methods.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/receiver/inherit_methods.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/receiver/inheritance_car.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/receiver/inheritance_car.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/receiver/methods.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/receiver/methods.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/receiver/type_string.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/receiver/type_string.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reflect/reflect1.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reflect/reflect2.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reflect/reflect_struct.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slices/array_slices.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/slices/array_slices.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slices/array_value.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/slices/array_value.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slices/byte_slices.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/slices/byte_slices.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slices/copy_append_slice.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/slices/copy_append_slice.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slices/filter_slice.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/slices/filter_slice.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slices/for_array.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/slices/for_array.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slices/for_arrays.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/slices/for_arrays.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slices/hello_to_cello.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/slices/hello_to_cello.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slices/insert_slice.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/slices/insert_slice.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slices/magnify_slice.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/slices/magnify_slice.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slices/make_slice.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/slices/make_slice.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slices/map_function.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/slices/map_function.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slices/min_max.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/slices/min_max.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slices/pointer_array.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/slices/pointer_array.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slices/remove_slice.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/slices/remove_slice.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slices/slice_append.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/slices/slice_append.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slices/slice_month.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/slices/slice_month.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slices/slices.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/slices/slices.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slices/slices_forrange.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/slices/slices_forrange.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slices/string_reverse.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/slices/string_reverse.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slices/string_split.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/slices/string_split.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slices/string_split2.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/slices/string_split2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slices/sum_array.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/slices/sum_array.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/sort_by_func.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/sorting.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/strings/string_format.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/strings/string_func.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/structs/anonymous_struct.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/structs/anonymous_struct.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structs/embed_struct.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/structs/embed_struct.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structs/person.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/structs/person.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structs/personex1.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/structs/personex1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structs/point.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/structs/rectangle.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/structs/rectangle.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structs/structs_anonymous.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/structs/structs_anonymous.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structs/structs_fields.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/structs/structs_fields.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structs/structs_init.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/structs/structs_init.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/intutils.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/panic_defer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/panic_defer_convit.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/recover_dividebyzero.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time/time_format.go" beforeDir="false" afterPath="$PROJECT_DIR$/time/time_format.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +154,7 @@
     <option name="useGoPathFromSystemEnvironment" value="false" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/slices/sum_array.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/basic/slices/sum_array.go" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1t1lnHvgFLfhuCsNwX4pcSnsePx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -83,61 +185,61 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/basic/components" />
       <recent name="$PROJECT_DIR$/basic" />
       <recent name="$PROJECT_DIR$/web/reqheader" />
       <recent name="$PROJECT_DIR$/web/body" />
       <recent name="$PROJECT_DIR$/web/base" />
-      <recent name="$PROJECT_DIR$/web" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build defer.go (1)">
-    <configuration name="go build defer_evaluated.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build clock1.go">
+    <configuration name="go build 10to1_recursive.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/defer/defer_evaluated.go" />
+      <filePath value="$PROJECT_DIR$/basic/10to1_recursive.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build defer.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build clock1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/defer/defer.go" />
+      <filePath value="$PROJECT_DIR$/concurrency/clock1.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build defer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build json_demo.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/basic/defer.go" />
+      <filePath value="$PROJECT_DIR$/json/json_demo.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build defer_lifo.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build time_format.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/defer/defer_lifo.go" />
+      <filePath value="$PROJECT_DIR$/time/time_format.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build tickers.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build url.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/time/tickers.go" />
+      <filePath value="$PROJECT_DIR$/web/url/url.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build defer.go (1)" />
-        <item itemvalue="Go Build.go build tickers.go" />
-        <item itemvalue="Go Build.go build defer_lifo.go" />
-        <item itemvalue="Go Build.go build defer_evaluated.go" />
-        <item itemvalue="Go Build.go build defer.go" />
+        <item itemvalue="Go Build.go build clock1.go" />
+        <item itemvalue="Go Build.go build url.go" />
+        <item itemvalue="Go Build.go build time_format.go" />
+        <item itemvalue="Go Build.go build 10to1_recursive.go" />
+        <item itemvalue="Go Build.go build json_demo.go" />
       </list>
     </recent_temporary>
   </component>

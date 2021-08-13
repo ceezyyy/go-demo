@@ -131,23 +131,15 @@ type Child struct {
 
 ## 2. Concurrency
 
-**Channels & goroutines**
+**Goroutines**
+
+In *Go*, each **concurrently executing activity** is called a *goroutine*
+
+**Channels**
 
 <div align="center"> <img src="pics/image-20210614170020244.png" width="55%"/> </div><br>
 
 
-
-## 3. Web
-
-**net/http 标准库**
-
-<div align="center"> <img src="./pics/image-20210622101720324.png" width="70%"/> </div><br>
-
-
-
-**Handling requests**
-
-<div align="center"> <img src="./pics/image-20210622110347771.png" width="70%"/> </div><br>
 
 
 

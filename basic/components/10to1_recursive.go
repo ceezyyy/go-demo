@@ -4,6 +4,8 @@ import "fmt"
 
 func main() {
 	printrec(10)
+	var b bool
+	fmt.Println(b)
 }
 
 func printrec(i int) {
