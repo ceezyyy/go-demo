@@ -9,7 +9,8 @@
 	- [1.4 Maps](#14-maps)
 	- [1.5 Structs](#15-structs)
 - [2. Concurrency](#2-concurrency)
-- [3. Web](#3-web)
+	- [2.1 Goroutines](#21-goroutines)
+	- [2.2 Channels](#22-channels)
 - [References](#references)
 
 ## 1. Basic
@@ -44,10 +45,6 @@ func main() {
     }
 }
 ```
-
-
-
-
 
 ### 1.2 Value v.s Pointer
 
@@ -101,9 +98,8 @@ newSlice := originSlice[i:j:j]
 
 ### 1.4 Maps
 
-
-
-
+- Exploiting zero values
+- Not safe for concurrent use
 
 ### 1.5 Structs
 
@@ -122,8 +118,8 @@ newSlice := originSlice[i:j:j]
 ```go
 // 同一个包下, 子类可以访问父类的字段和方法
 type Child struct {
-		Father, // 匿名类
-  	Mother, // 匿名类
+  Father, // 匿名类
+  Mother, // 匿名类
 }
 ```
 
@@ -131,15 +127,27 @@ type Child struct {
 
 ## 2. Concurrency
 
-**Goroutines**
+### 2.1 Goroutines
 
 In *Go*, each **concurrently executing activity** is called a *goroutine*
 
-**Channels**
+### 2.2 Channels
+
+**Channels & Goroutines**
 
 <div align="center"> <img src="pics/image-20210614170020244.png" width="55%"/> </div><br>
 
+**Empty buffered channel**
 
+<div align="center"> <img src="./pics/image-20210815184047754.png" width="50%"/> </div><br>
+
+**Full buffered channel**
+
+<div align="center"> <img src="./pics/image-20210815184143873.png" width="50%"/> </div><br>
+
+**Partially full buffered channel**
+
+<div align="center"> <img src="./pics/image-20210815184255804.png" width="50%"/> </div><br>
 
 
 
@@ -154,7 +162,6 @@ In *Go*, each **concurrently executing activity** is called a *goroutine*
 - [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
 - [字符编码笔记：ASCII，Unicode 和 UTF-8](https://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html)
 - [Go 语言设计与实现](https://draveness.me/golang/)
-- [Go语言 | Go 1.9 新特性 Type Alias详解](https://www.flysnow.org/2017/08/26/go-1-9-type-alias.html)
-- [Type assertions and type switches](https://yourbasic.org/golang/type-assertion-switch/)
 - [Go maps in action](https://blog.golang.org/maps)
 - [When is the init() function run?](https://stackoverflow.com/questions/24790175/when-is-the-init-function-run)
+
