@@ -101,9 +101,10 @@ type name underlying-type
 
 
 
-**避免修改底层数组**
+**创建新 slice**
 
 ```go
+// 避免修改原 slice 的底层数组
 newSlice := originSlice[i:j:j]
 ```
 
