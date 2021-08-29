@@ -4,13 +4,17 @@
 
 - [1. Basic](#1-basic)
 	- [1.1 Execution](#11-execution)
-	- [1.2 Value v.s Pointer](#12-value-vs-pointer)
-	- [1.3 Slices](#13-slices)
-	- [1.4 Maps](#14-maps)
+	- [1.2 Variables](#12-variables)
+		- [1.2.1 Zero-value Mechanism](#121-zero-value-mechanism)
+		- [1.2.2 Lifetime](#122-lifetime)
+	- [1.3 Type](#13-type)
+	- [1.4 Slices](#14-slices)
+	- [1.6 Maps](#16-maps)
 	- [1.5 Structs](#15-structs)
 - [2. Concurrency](#2-concurrency)
 	- [2.1 Goroutines](#21-goroutines)
 	- [2.2 Channels](#22-channels)
+	- [2.3 Race Conditions](#23-race-conditions)
 - [References](#references)
 
 ## 1. Basic
@@ -46,21 +50,37 @@ func main() {
 }
 ```
 
-### 1.2 Value v.s Pointer
+### 1.2 Variables
 
-**value**
+#### 1.2.1 Zero-value Mechanism
 
-<div align="center"> <img src="pics/image-20210528121045494.png" width="35%"/> </div><br>
-
-**pointer**
-
-- Working w/ *pointers* can reduce **memory usage** and increase efficiency
-
-<div align="center"> <img src="pics/image-20210529151649826.png" width="45%"/> </div><br>
+```go
+var name type = expression
+```
 
 
+|                             Type                             | Zero-value |
+| :----------------------------------------------------------: | :--------: |
+|                           Numbers                            |     0      |
+|                           Booleans                           |   False    |
+|                           Strings                            |     ""     |
+|                          Interface                           |    nil     |
+| Reference types<br />(slice, pointer, map, channel, function) |    nil     |
 
-### 1.3 Slices
+#### 1.2.2 Lifetime
+
+// todo
+
+### 1.3 Type
+
+```go
+type name underlying-type
+```
+
+
+
+
+### 1.4 Slices
 
 **Arrays**
 
@@ -96,7 +116,7 @@ s = t
 newSlice := originSlice[i:j:j]
 ```
 
-### 1.4 Maps
+### 1.6 Maps
 
 - Exploiting zero values
 - Not safe for concurrent use
@@ -147,7 +167,25 @@ In *Go*, each **concurrently executing activity** is called a *goroutine*
 
 **Partially full buffered channel**
 
-<div align="center"> <img src="./pics/image-20210815184255804.png" width="50%"/> </div><br>
+<div align="center"> <img src="./pics/image-20210815184255804.png" width="45%"/> </div><br>
+
+### 2.3 Race Conditions
+
+**什么是 race conditions?**
+
+A data race occurs whenever **two goroutines** access the **same variable concurrently** and at least one of the accesses is a **write**
+
+**如何避免?**
+
+- *Not to write the variable*, 即变量初始化之后**只读**
+- *Avoid accessing the variable from multiple goroutines*, 即变量只存在于各自的 *goroutine*
+- *Allow many goroutines to acess the variable, but only at one time*, 即互斥锁
+
+
+
+
+
+
 
 
 
@@ -160,8 +198,6 @@ In *Go*, each **concurrently executing activity** is called a *goroutine*
 - [Go by Example](https://gobyexample.com/)
 - [Go Slices: usage and internals](https://blog.golang.org/slices-intro)
 - [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
-- [字符编码笔记：ASCII，Unicode 和 UTF-8](https://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html)
 - [Go 语言设计与实现](https://draveness.me/golang/)
 - [Go maps in action](https://blog.golang.org/maps)
 - [When is the init() function run?](https://stackoverflow.com/questions/24790175/when-is-the-init-function-run)
-

@@ -4,15 +4,22 @@ import "fmt"
 
 func main() {
 
-	var i int = 1
-	// intP points to variable "i"
-	var intP *int = &i
-	fmt.Printf("Integer: %d, its address: %p\n", i, intP)
+	x := 1
+	// p points to x
+	p := &x
+	fmt.Println(*p) // 1
 
-	// nil: 声明但未赋值
-	var testNil *int
-	fmt.Println(testNil)
+	*p = 2
+	fmt.Println(x) // 2
 
-	// var == *(&var)
+	var a, b int
+	p1 := &a    // addr, not nil
+	p2 := &b    // addr, not nil
+	var p3 *int // the zero-value of pointer is nil
+
+	fmt.Println(p1 == p2)  // false
+	fmt.Println(p1 == nil) // false
+	fmt.Println(p2 == nil) // false
+	fmt.Println(p3 == nil) // true
 
 }

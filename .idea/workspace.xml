@@ -5,50 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b95fa6f8-789b-4ba1-b9fa-386470025569" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/basic/maps/maps_in_action.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/echo/reverb.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/pipelines/pipeline1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/pipelines/pipeline2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/pipelines/pipeline3.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pics/image-20210815184047754.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pics/image-20210815184143873.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pics/image-20210815184221073.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pics/image-20210815184255804.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/components/tempconv0.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/components/variables.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/defer/defer1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/recover/panic_recover.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/structs/structs_cmp.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/chat/chat.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/metronome/countdown.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/workerpools/worker_pools.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/components/blank_identifier.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/defer/named_variables.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/maps/if_present.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/maps/make_maps.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/maps/map_days.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/maps/map_forrange.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/maps/map_func.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/maps/maps.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/atomic_counter.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/demo/atomic_counter.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/blocking.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/demo/blocking.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/channel_block.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/demo/channel_block.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/channel_block3.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/demo/channel_block3.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/channel_buff.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/demo/channel_buff.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/channel_buffer.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/demo/channel_buffer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/channel_closing.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/demo/channel_closing.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/channel_dire.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/demo/channel_dire.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/channel_sync.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/demo/channel_sync.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/channels.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/demo/channels.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/clock1.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/clock/clock1.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/gofibonacci.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/demo/gofibonacci.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/goroutine.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/demo/goroutine.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/goroutine1.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/demo/goroutine1.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/goroutine2.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/demo/goroutine2.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/goroutine_panic.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/demo/goroutine_panic.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/gosum.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/demo/gosum.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/mutex.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/demo/mutex.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/non_blocking_channel_oper.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/demo/non_blocking_channel_oper.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/producer_consumer.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/demo/producer_consumer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/random_bitgen.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/demo/random_bitgen.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/range_channels.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/demo/range_channels.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/timeouts.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/demo/timeouts.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/waitgroups.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/demo/waitgroups.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/worker_pools.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/demo/worker_pools.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/components/booleans.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/components/divby0.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/components/divby0.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/components/pointer.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/components/pointer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/defer/defer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/defer/defer_evaluated.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/defer/trace.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/slices/for_array.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/slices/for_array.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/slices/slice_append.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/slices/slice_append.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/structs/embed_struct.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/structs/embed_struct.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.xmind" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time/time.go" beforeDir="false" afterPath="$PROJECT_DIR$/time/time.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/url/url.go" beforeDir="false" afterPath="$PROJECT_DIR$/web/url/url.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,61 +89,61 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/basic/components" />
       <recent name="$PROJECT_DIR$/concurrency/demo" />
       <recent name="$PROJECT_DIR$/concurrency/echo" />
       <recent name="$PROJECT_DIR$/concurrency/clock" />
-      <recent name="$PROJECT_DIR$/basic/components" />
       <recent name="$PROJECT_DIR$/basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build maps_in_action.go">
-    <configuration name="go build err_with_named_var.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build tempconv0.go">
+    <configuration name="go build byte_of_int.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/basic/components/err_with_named_var.go" />
+      <filePath value="$PROJECT_DIR$/basic/components/byte_of_int.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build if_present.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build divby0.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/basic/maps/if_present.go" />
+      <filePath value="$PROJECT_DIR$/basic/components/divby0.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build map_forrange.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build pointer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/basic/maps/map_forrange.go" />
+      <filePath value="$PROJECT_DIR$/basic/components/pointer.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build maps_in_action.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build tempconv0.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/basic/maps/maps_in_action.go" />
+      <filePath value="$PROJECT_DIR$/basic/components/ch2/tempconv0.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build named_return.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build variables.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/basic/defer/named_return.go" />
+      <filePath value="$PROJECT_DIR$/basic/components/variables.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build maps_in_action.go" />
-        <item itemvalue="Go Build.go build map_forrange.go" />
-        <item itemvalue="Go Build.go build if_present.go" />
-        <item itemvalue="Go Build.go build named_return.go" />
-        <item itemvalue="Go Build.go build err_with_named_var.go" />
+        <item itemvalue="Go Build.go build tempconv0.go" />
+        <item itemvalue="Go Build.go build pointer.go" />
+        <item itemvalue="Go Build.go build variables.go" />
+        <item itemvalue="Go Build.go build divby0.go" />
+        <item itemvalue="Go Build.go build byte_of_int.go" />
       </list>
     </recent_temporary>
   </component>

@@ -3,15 +3,11 @@ package main
 import "fmt"
 
 func main() {
+	fmt.Println(testFunc1())
 
-	var arr [16]int
+}
 
-	for i := 0; i <= 15; i++ {
-		arr[i] = i
-	}
-
-	for i := range arr {
-		fmt.Println(arr[i])
-	}
-
+func testFunc1() (res []int) {
+	res = append(res, 1, 2)
+	return
 }

@@ -15,7 +15,7 @@ func main() {
 
 }
 
-// A 更高级别抽象
+// diyStruct 更高级别抽象
 type A struct {
 	a1, a2 int
 }
