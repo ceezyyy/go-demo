@@ -5,29 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b95fa6f8-789b-4ba1-b9fa-386470025569" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/basic/components/tempconv0.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/components/variables.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/defer/defer1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/recover/panic_recover.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/structs/structs_cmp.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/chat/chat.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/metronome/countdown.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/workerpools/worker_pools.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/components/basename.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/slices/append.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/slices/rev.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/components/booleans.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/components/divby0.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/components/divby0.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/components/pointer.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/components/pointer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/defer/defer.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/defer/defer_evaluated.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/defer/trace.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/slices/for_array.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/slices/for_array.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/slices/slice_append.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/slices/slice_append.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/structs/embed_struct.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/structs/embed_struct.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.xmind" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/time/time.go" beforeDir="false" afterPath="$PROJECT_DIR$/time/time.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/url/url.go" beforeDir="false" afterPath="$PROJECT_DIR$/web/url/url.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/slices/string_reverse.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,60 +73,62 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/basic/components" />
+      <recent name="$PROJECT_DIR$/basic/strings" />
       <recent name="$PROJECT_DIR$/concurrency/demo" />
       <recent name="$PROJECT_DIR$/concurrency/echo" />
       <recent name="$PROJECT_DIR$/concurrency/clock" />
-      <recent name="$PROJECT_DIR$/basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build tempconv0.go">
-    <configuration name="go build byte_of_int.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build rev.go">
+    <configuration name="go build basename.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/basic/components/byte_of_int.go" />
+      <filePath value="$PROJECT_DIR$/basic/components/basename.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build divby0.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/basic/components/divby0.go" />
+      <filePath value="$PROJECT_DIR$/basic/strings/basename/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build pointer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build rev.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/basic/components/pointer.go" />
+      <filePath value="$PROJECT_DIR$/basic/slices/rev.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build tempconv0.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build test_main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/basic/components/ch2/tempconv0.go" />
+      <filePath value="$PROJECT_DIR$/basic/strings/basename/test_main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build variables.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestBasename in basename_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
-      <working_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/basic/strings/basename" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/basic/components/variables.go" />
+      <filePath value="$PROJECT_DIR$/basic/strings/basename/basename_test.go" />
+      <framework value="gotest" />
+      <pattern value="^\QTestBasename\E$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build tempconv0.go" />
-        <item itemvalue="Go Build.go build pointer.go" />
-        <item itemvalue="Go Build.go build variables.go" />
-        <item itemvalue="Go Build.go build divby0.go" />
-        <item itemvalue="Go Build.go build byte_of_int.go" />
+        <item itemvalue="Go Build.go build rev.go" />
+        <item itemvalue="Go Build.go build basename.go" />
+        <item itemvalue="Go Test.TestBasename in basename_test.go" />
+        <item itemvalue="Go Build.go build test_main.go" />
+        <item itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>
   </component>

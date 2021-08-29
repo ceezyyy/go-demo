@@ -71,6 +71,8 @@ var name type = expression
 
 // todo
 
+
+
 ### 1.3 Type
 
 ```go
@@ -82,11 +84,10 @@ type name underlying-type
 
 ### 1.4 Slices
 
-**Arrays**
+- *len(sl) == 0* 判断是否为空
+- 不可比较
 
-<div align="center"> <img src="./pics/slice-array.png" width="50%"/> </div><br>
-
-**Slices 底层结构**
+**结构**
 
 <div align="center"> <img src="pics/slice-struct.png" width="55%"/> </div><br>
 
@@ -98,25 +99,17 @@ type name underlying-type
 
 <div align="center"> <img src="./pics/slice-2.png" width="50%"/> </div><br>
 
-**扩容**
+
+
+**避免修改底层数组**
 
 ```go
-t := make([]byte, len(s), (cap(s)+1)*2)  // 思考: 为什么 "+1"
-copy(t, s)
-s = t
-```
-
-
-
-**设置 len 和 cap 相同**
-
-```go
-// 1. append 后不会修改底层数组
-// 2. 保持为切片申请新的底层数组的简洁
 newSlice := originSlice[i:j:j]
 ```
 
 ### 1.6 Maps
+
+- **You must allocate(make) the map before you can store into it !!!**
 
 - Exploiting zero values
 - Not safe for concurrent use
