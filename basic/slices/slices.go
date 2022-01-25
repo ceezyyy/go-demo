@@ -22,7 +22,10 @@ func main() {
 
 	res := testFunc(1)
 	// 返回的是地址
-	fmt.Printf("%T", res)
+	fmt.Printf("%T\n", res)
+
+	sl := make([]int, 0)
+	fmt.Println(sl == nil)
 
 }
 

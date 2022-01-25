@@ -10,7 +10,7 @@ func main() {
 
 	v := url.Values{}
 	v.Set("uid", strconv.FormatInt(190903940349, 10))
-	//v.Add("isTrue", "true")
+	v.Set("from", "shareicon")
 
 	serviceURL := "serviceURL"
 	// serviceURL?isTrue=true&uid=190903940349

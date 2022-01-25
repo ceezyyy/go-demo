@@ -10,13 +10,11 @@ type myStruct struct {
 
 func main() {
 
-	// init
-	ms := new(myStruct)
-	ms.i1 = 1
-	ms.f1 = 2
-	ms.s = "hello struct"
+	var ms myStruct
 
-	fmt.Printf("myStruct: %v\n", ms)
-	fmt.Println(ms)
+	// zero-value
+	fmt.Println(ms.i1)
+	fmt.Println(ms.f1)
+	fmt.Println(ms.s)
 
 }

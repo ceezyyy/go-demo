@@ -30,14 +30,29 @@ func main() {
 	fmt.Printf("p2: %v\n", p2)
 	fmt.Printf("p3: %v\n", p3)
 
+	var p4 Person
+	fmt.Println("p4")
+	fmt.Println(p4)
+	p4 = returnPerson()
+	fmt.Println(p4)
+
 }
 
 type Person struct {
 	lastName, firstName string
+	num                 int
 }
 
 //upPerson 入参为地址
 func upPerson(p *Person) {
 	p.lastName = strings.ToUpper(p.lastName)
 	p.firstName = strings.ToUpper(p.firstName)
+}
+
+func returnPerson() Person {
+	p := Person{
+		lastName:  "a",
+		firstName: "b",
+	}
+	return p
 }

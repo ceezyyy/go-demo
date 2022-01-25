@@ -9,7 +9,6 @@ func main() {
 
 	values := []int{1, 2, 3, 4}
 	fmt.Println(sum(values...))
-
 }
 
 func sum(vals ...int) (total int) {

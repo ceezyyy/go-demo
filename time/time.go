@@ -26,5 +26,23 @@ func main() {
 	fmt.Println(diff1.Hours())
 	fmt.Println(diff2.Hours())
 
-	fmt.Println(time.Now().Format("2006-01-02 15:04:05"))
+	fmt.Println(time.Now().Format("2006-01-02 15:04:05.999"))
+
+	str := "2020-03-08 11:33:44"
+	t, err := time.Parse(time.RFC3339, str)
+
+	if err != nil {
+		fmt.Println(err)
+	}
+	fmt.Println(t)
+
+	tomorrow := time.Now().AddDate(0, 0, 1).Format("2006-01-02")
+	fmt.Println(tomorrow)
+
+	fmt.Println(time.Now().AddDate(0, 0, 2).Format("2006-01-02 15:04:05"))
+
+	nowTS := time.Now().Unix()
+	timeT := time.Unix(nowTS, 0) // timestamp to time.Time
+	fmt.Println(timeT.Hour())
+
 }

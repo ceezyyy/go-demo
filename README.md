@@ -91,15 +91,12 @@ type name underlying-type
 
 <div align="center"> <img src="pics/slice-struct.png" width="55%"/> </div><br>
 
+**扩容**
+
+<div align="center"> <img src="./pics/image-20210830095741413.png" width="50%"/> </div><br>
 
 
-<div align="center"> <img src="./pics/slice-1.png" width="50%"/> </div><br>
-
-
-
-<div align="center"> <img src="./pics/slice-2.png" width="50%"/> </div><br>
-
-
+<div align="center"> <img src="./pics/image-20210830095812141.png" width="50%"/> </div><br>
 
 **创建新 slice**
 
@@ -110,10 +107,10 @@ newSlice := originSlice[i:j:j]
 
 ### 1.6 Maps
 
-- **You must allocate(make) the map before you can store into it !!!**
+**Don't panic**
 
-- Exploiting zero values
-- Not safe for concurrent use
+- *map* 是空的吗？
+- *map* 会并发写入吗？
 
 ### 1.5 Structs
 
@@ -165,21 +162,13 @@ In *Go*, each **concurrently executing activity** is called a *goroutine*
 
 ### 2.3 Race Conditions
 
-**什么是 race conditions?**
-
-A data race occurs whenever **two goroutines** access the **same variable concurrently** and at least one of the accesses is a **write**
+> A data race occurs whenever **two goroutines** access the **same variable concurrently** and at least one of the accesses is a **write**
 
 **如何避免?**
 
 - *Not to write the variable*, 即变量初始化之后**只读**
 - *Avoid accessing the variable from multiple goroutines*, 即变量只存在于各自的 *goroutine*
 - *Allow many goroutines to acess the variable, but only at one time*, 即互斥锁
-
-
-
-
-
-
 
 
 
@@ -195,3 +184,5 @@ A data race occurs whenever **two goroutines** access the **same variable concur
 - [Go 语言设计与实现](https://draveness.me/golang/)
 - [Go maps in action](https://blog.golang.org/maps)
 - [When is the init() function run?](https://stackoverflow.com/questions/24790175/when-is-the-init-function-run)
+
+  

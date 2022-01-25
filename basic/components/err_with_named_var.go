@@ -6,7 +6,9 @@ import (
 )
 
 func main() {
-	if _, err := myFunc2(); err!= nil {
+	var err error
+	fmt.Println(err == nil)
+	if _, err := myFunc2(); err != nil {
 		fmt.Println(err)
 	}
 }

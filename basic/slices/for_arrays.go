@@ -19,4 +19,13 @@ func main() {
 		fmt.Printf("index: %d, val: %s\n", i, aa[i])
 	}
 
+	a := make([]int, 0)
+	a = append(a, 1, 2)
+	test(a)
+	fmt.Println(a[:])
+
+}
+
+func test(arr []int) {
+	arr = append(arr, 3)
 }
