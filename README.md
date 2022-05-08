@@ -2,20 +2,21 @@
 
 ## Table of Contents
 
-- [1. Basic](#1-basic)
-	- [1.1 Execution](#11-execution)
-	- [1.2 Variables](#12-variables)
-		- [1.2.1 Zero-value Mechanism](#121-zero-value-mechanism)
-		- [1.2.2 Lifetime](#122-lifetime)
-	- [1.3 Type](#13-type)
-	- [1.4 Slices](#14-slices)
-	- [1.6 Maps](#16-maps)
-	- [1.5 Structs](#15-structs)
-- [2. Concurrency](#2-concurrency)
-	- [2.1 Goroutines](#21-goroutines)
-	- [2.2 Channels](#22-channels)
-	- [2.3 Race Conditions](#23-race-conditions)
-- [References](#references)
+* [1. Basic](#1-basic)
+  + [1.1 Execution](#11-execution)
+  + [1.2 Variables](#12-variables)
+    - [1.2.1 Zero-value Mechanism](#121-zero-value-mechanism)
+    - [1.2.2 Lifetime](#122-lifetime)
+  + [1.3 Type](#13-type)
+  + [1.4 Slices](#14-slices)
+  + [1.5 Maps](#15-maps)
+  + [1.6 Structs](#16-structs)
+* [2. Concurrency](#2-concurrency)
+  + [2.1 Concurrency VS Parallelism](#21-concurrency-vs-parallelism)
+  + [2.2 Channels](#22-channels)
+* [References](#references)
+
+
 
 ## 1. Basic
 
@@ -25,12 +26,7 @@
 
 <div align="center"> <img src="pics/go-program.png" width="70%"/> </div><br>
 
-1. 入口：*package main*，按顺序 *import* 所有包
-2. 递归地 *import*（每个包只会 *import* 一次）
-3. 所有 *const* 和 *variables* 将被赋值，调用 *init()*（若存在）
-4. 执行 *main()*
-
-**init 函数**
+**init()**
 
 ```go
 var WhatIsThe = AnswerToLife()
@@ -84,47 +80,41 @@ type name underlying-type
 
 ### 1.4 Slices
 
-- *len(sl) == 0* 判断是否为空
-- 不可比较
-
-**结构**
+**struct**
 
 <div align="center"> <img src="pics/slice-struct.png" width="55%"/> </div><br>
 
-**扩容**
+**grow**
 
 <div align="center"> <img src="./pics/image-20210830095741413.png" width="50%"/> </div><br>
 
 
 <div align="center"> <img src="./pics/image-20210830095812141.png" width="50%"/> </div><br>
 
-**创建新 slice**
+**make new slice**
 
 ```go
 // 避免修改原 slice 的底层数组
 newSlice := originSlice[i:j:j]
 ```
 
-### 1.6 Maps
+### 1.5 Maps
 
-**Don't panic**
+// todo
 
-- *map* 是空的吗？
-- *map* 会并发写入吗？
+### 1.6 Structs
 
-### 1.5 Structs
-
-**底层**
+**new**
 
 <div align="center"> <img src="pics/image-20210609115944249.png" width="65%"/> </div><br>
 
-**嵌套**
+**embedded**
 
 <div align="center"> <img src="pics/image-20210609150224083.png" width="60%"/> </div><br>
 
 
 
-**继承**
+**inherit**
 
 ```go
 // 同一个包下, 子类可以访问父类的字段和方法
@@ -138,11 +128,15 @@ type Child struct {
 
 ## 2. Concurrency
 
-### 2.1 Goroutines
+### 2.1 Concurrency VS Parallelism
 
-In *Go*, each **concurrently executing activity** is called a *goroutine*
+Concurrency is a property of the code; parallelism is a property of the running program
 
 ### 2.2 Channels
+
+> A channel serves as a conduit for a stream of information,
+>
+> values may be passed along the channel, and then read out downstream
 
 **Channels & Goroutines**
 
@@ -160,15 +154,9 @@ In *Go*, each **concurrently executing activity** is called a *goroutine*
 
 <div align="center"> <img src="./pics/image-20210815184255804.png" width="45%"/> </div><br>
 
-### 2.3 Race Conditions
+**Trouble shooting**
 
-> A data race occurs whenever **two goroutines** access the **same variable concurrently** and at least one of the accesses is a **write**
-
-**如何避免?**
-
-- *Not to write the variable*, 即变量初始化之后**只读**
-- *Avoid accessing the variable from multiple goroutines*, 即变量只存在于各自的 *goroutine*
-- *Allow many goroutines to acess the variable, but only at one time*, 即互斥锁
+<div align="center"> <img src="./pics/image-20220508182411149.png" width="60%"/> </div><br>
 
 
 
@@ -184,5 +172,5 @@ In *Go*, each **concurrently executing activity** is called a *goroutine*
 - [Go 语言设计与实现](https://draveness.me/golang/)
 - [Go maps in action](https://blog.golang.org/maps)
 - [When is the init() function run?](https://stackoverflow.com/questions/24790175/when-is-the-init-function-run)
-
-  
+- [Concurrency is not Parallelism by Rob Pike](https://www.youtube.com/watch?v=oV9rvDllKEg)
+- [50 Shades of Go: Traps, Gotchas, and Common Mistakes for New Golang Devs](http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/)

@@ -15,12 +15,11 @@ type Message struct {
 }
 
 type Resp struct {
-	DmError  int64  `json:"dm_error"`
-	ErrorMsg string `json:"error_msg"`
-	Data     struct {
-		NewDevice bool  `json:"new_device"`
-		Timestamp int64 `json:"timestamp"`
-	} `json:"data"`
+	Aggregations struct {
+		Total struct {
+			Value float64 `json:"value"`
+		} `json:"total"`
+	} `json:"aggregations"`
 }
 
 // 1. json 的 key 必须是 string
@@ -43,12 +42,11 @@ func main() {
 	fmt.Println(m.Body)
 	fmt.Println(m.Time)
 
-	testByte := []byte(`{"dm_error": 0,"error_msg": "0","data": {"new_device": true,"timestamp": 1628586405}}`)
+	testByte := []byte(`{"took":17,"timed_out":false,"_shards":{"total":4,"successful":4,"skipped":0,"failed":0},"hits":{"total":1,"max_score":0.0,"hits":[]},"aggregations":{"total":{"value":844.0}}}`)
 	var resp Resp
-	_ = json.Unmarshal(testByte, &resp)
-	fmt.Println(resp.DmError)
-	fmt.Println(resp.ErrorMsg)
-	fmt.Println(resp.Data.NewDevice)
-	fmt.Println(resp.Data.Timestamp)
-
+	if err := json.Unmarshal(testByte, &resp); err != nil {
+		panic(err)
+	}
+	fmt.Printf("%v\n", resp)
+	fmt.Println(resp.Aggregations.Total.Value)
 }

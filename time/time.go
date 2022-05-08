@@ -45,4 +45,18 @@ func main() {
 	timeT := time.Unix(nowTS, 0) // timestamp to time.Time
 	fmt.Println(timeT.Hour())
 
+	rounded := time.Date(now.Year()+1, 1, 1, 0, 0, 0, 0, t.Location())
+	fmt.Println(rounded)
+
+	start := time.Now().Format("200601") + "01"
+	fmt.Println(start)
+
+	tmp := 1 * 24 * time.Hour.Seconds()
+	fmt.Println(int64(tmp))
+
+	end := time.Now().AddDate(0, 0, 7).Unix()
+	fmt.Println(end)
+
+	fmt.Println(time.Now().Format("01021504"))
+
 }

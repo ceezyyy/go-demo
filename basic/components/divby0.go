@@ -24,5 +24,4 @@ func main() {
 	arr = append(arr, 1)
 	fmt.Println(arr)
 
-
 }
