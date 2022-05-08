@@ -4,31 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b95fa6f8-789b-4ba1-b9fa-386470025569" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/basic/files/read.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/demo/chan.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/demo/cond.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/demo/select.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/demo/wg.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/components/byte_of_int.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/components/byte_of_int.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/components/divby0.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/components/divby0.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/components/for_character.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/components/lambda_value.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/components/lambda_value.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/components/variables.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/components/variables.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/slices/for_array.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/slices/for_array.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/demo/channel_sync.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/demo/channels.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/demo/goroutine.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/demo/goroutine.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/demo/goroutine1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/demo/goroutine2.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/demo/mutex.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/demo/mutex.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/demo/waitgroups.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/json_demo.go" beforeDir="false" afterPath="$PROJECT_DIR$/json/json_demo.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/time/tickers.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/time/time.go" beforeDir="false" afterPath="$PROJECT_DIR$/time/time.go" afterDir="false" />
-    </list>
+    <list default="true" id="b95fa6f8-789b-4ba1-b9fa-386470025569" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
