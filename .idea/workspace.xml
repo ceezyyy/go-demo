@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b95fa6f8-789b-4ba1-b9fa-386470025569" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/slices/array_slices.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/slices/array_slices.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/slices/string_split2.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
