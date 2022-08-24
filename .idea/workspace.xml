@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b95fa6f8-789b-4ba1-b9fa-386470025569" name="Default Changelist" comment="" />
+    <list default="true" id="b95fa6f8-789b-4ba1-b9fa-386470025569" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/basic/components/rand.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/ctx/done_chan.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/components/func_calls_func.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time/epoch.go" beforeDir="false" afterPath="$PROJECT_DIR$/web/ws/websocket.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time/time.go" beforeDir="false" afterPath="$PROJECT_DIR$/time/time.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +40,6 @@
     </file-type-list>
   </component>
   <component name="GoLibraries">
-    <option name="indexEntireGoPath" value="false" />
     <option name="useGoPathFromSystemEnvironment" value="false" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -74,54 +81,54 @@
       <recent name="$PROJECT_DIR$/concurrency/clock" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build select.go">
-    <configuration name="]" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+  <component name="RunManager" selected="Go Build.go build websocket.go">
+    <configuration name="go build count_characters.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/concurrency/demo/channels.go" />
+      <filePath value="$PROJECT_DIR$/basic/components/count_characters.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build chan.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build epoch.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/concurrency/demo/chan.go" />
+      <filePath value="$PROJECT_DIR$/time/epoch.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build cond.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build rand.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/concurrency/demo/cond.go" />
+      <filePath value="$PROJECT_DIR$/basic/components/rand.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build select.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build timers.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/concurrency/demo/select.go" />
+      <filePath value="$PROJECT_DIR$/time/timers.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build time.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build websocket.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/time/time.go" />
+      <filePath value="$PROJECT_DIR$/web/ws/websocket.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build select.go" />
-        <item itemvalue="Go Build.go build chan.go" />
-        <item itemvalue="Go Build.]" />
-        <item itemvalue="Go Build.go build time.go" />
-        <item itemvalue="Go Build.go build cond.go" />
+        <item itemvalue="Go Build.go build websocket.go" />
+        <item itemvalue="Go Build.go build count_characters.go" />
+        <item itemvalue="Go Build.go build epoch.go" />
+        <item itemvalue="Go Build.go build rand.go" />
+        <item itemvalue="Go Build.go build timers.go" />
       </list>
     </recent_temporary>
   </component>

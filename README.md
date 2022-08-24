@@ -156,7 +156,9 @@ Concurrency is a property of the code; parallelism is a property of the running 
 
 **Trouble shooting**
 
-<div align="center"> <img src="./pics/image-20220508182411149.png" width="60%"/> </div><br>
+<div align="center"> <img src="./pics/image-20220508182411149.png" width="75%"/> </div><br>
+
+### 2.3 Context
 
 
 

@@ -57,6 +57,15 @@ func main() {
 	end := time.Now().AddDate(0, 0, 7).Unix()
 	fmt.Println(end)
 
-	fmt.Println(time.Now().Format("01021504"))
+	var cstZone = time.FixedZone("Beijing", 0)
+	tm := time.Unix(60, 0)
+	fmt.Println(tm.In(cstZone).Format("15:04:05"))
 
+	fmt.Println(now.AddDate(0, 0, -30).Unix())
+
+	fmt.Println(now.AddDate(0, 0, -30))
+
+	t = time.Now()
+	tt := time.Date(t.Year(), t.Month(), t.Day(), 0, 0, 0, 0, t.Location())
+	fmt.Println(tt)
 }
