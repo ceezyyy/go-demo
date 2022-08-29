@@ -100,7 +100,9 @@ newSlice := originSlice[i:j:j]
 
 ### 1.5 Maps
 
-// todo
+> A hashtable is an array of buckets, each bucket being a pointer to an array of key/value pairs
+
+<div align="center"> <img src="./pics/image-20220828221529589.png" width="90%"/> </div><br>
 
 ### 1.6 Structs
 
