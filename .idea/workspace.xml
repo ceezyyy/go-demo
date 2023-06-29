@@ -1,23 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8b8f7451-6e43-408f-8129-eda8740bdebd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common-mistakes/empty-nil-slice/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-mistakes/floating-points/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-mistakes/init-func/main/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-mistakes/init-func/rds/redis.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-mistakes/integer-overflows/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-mistakes/slice-append/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-mistakes/slice-copy/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-mistakes/slice-memory-leak/capacity-leak/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-mistakes/slice-memory-leak/slice-ptr/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-mistakes/type-embedding/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-mistakes/variable-shadowing/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pics/image-20220828221428530.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pics/image-20220828221529589.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/pb/demo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/freecache.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/event/event_bus.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/go-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/go-demo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Go File" />
         <option value="Go Application" />
       </list>
     </option>
@@ -35,8 +27,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/basic/slices/sum_array.go" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Dz4VxmH1QPBjOCmBBAyj7WZPTZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -46,69 +44,72 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DefaultGoTemplateProperty" value="Go Application" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="go.import.settings.migrated" value="true" />
-    <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
-  </component>
-  <component name="RunManager" selected="Go Build.go build go-demo/common-mistakes/slice-memory-leak/slice-ptr">
-    <configuration name="go build go-demo/common-mistakes/copy-slice" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-demo" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="go-demo/common-mistakes/copy-slice" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/common-mistakes/copy-slice/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build go-demo/common-mistakes/slice-append" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-demo" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="go-demo/common-mistakes/slice-append" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/common-mistakes/slice-append/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build go-demo/common-mistakes/slice-memory-leak/capacity-leak" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-demo" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="go-demo/common-mistakes/slice-memory-leak/capacity-leak" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/common-mistakes/slice-memory-leak/capacity-leak/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build go-demo/common-mistakes/slice-memory-leak/slice-ptr" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-demo" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="go-demo/common-mistakes/slice-memory-leak/slice-ptr" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/common-mistakes/slice-memory-leak/slice-ptr/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go Application&quot;,
+    &quot;Project.color&quot;: &quot;455841&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/inke21615m&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Go Build.go build go-demo/event">
+    <configuration name="go build freecache.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="go-demo" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/common-mistakes/slice-memory-leak/slice-ptr/main.go" />
+      <filePath value="$PROJECT_DIR$/cache/freecache.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go-demo/cache" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-demo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="go-demo/cache" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/cache/local_cache.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go-demo/event" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-demo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="go-demo/event" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/event/event_bus.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go-demo/json" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-demo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="go-demo/json" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/json/json_demo.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build local.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-demo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="go-demo" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/cache/local.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build go-demo/common-mistakes/slice-memory-leak/slice-ptr" />
-        <item itemvalue="Go Build.go build main.go" />
-        <item itemvalue="Go Build.go build go-demo/common-mistakes/slice-memory-leak/capacity-leak" />
-        <item itemvalue="Go Build.go build go-demo/common-mistakes/slice-append" />
-        <item itemvalue="Go Build.go build go-demo/common-mistakes/copy-slice" />
+        <item itemvalue="Go Build.go build go-demo/event" />
+        <item itemvalue="Go Build.go build go-demo/cache" />
+        <item itemvalue="Go Build.go build local.go" />
+        <item itemvalue="Go Build.go build go-demo/json" />
+        <item itemvalue="Go Build.go build freecache.go" />
       </list>
     </recent_temporary>
   </component>
@@ -126,9 +127,12 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
+    <settings-migrated>true</settings-migrated>
   </component>
 </project>
